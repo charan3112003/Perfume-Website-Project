@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Boutique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Perfume Boutique</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Discover Your Signature Scent</h2>
+            <p>Explore our collection of exclusive perfumes crafted with the finest ingredients.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Perfume Boutique is dedicated to creating unique and luxurious fragrances for every individual. Our
+                scents are meticulously crafted to evoke emotions and create lasting memories.</p>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img id="first" src="https://fimgs.net/mdimg/secundar/o.73475.jpg" alt="Perfume 1">
+                    <h3>Elegance</h3>
+                    <p>A sophisticated blend of floral and woody notes.</p>
+                    <button class="btn add-to-cart" data-product="Elegance">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img id="second" src="https://pimages.parfumo.de/720/131867_img-8853-amber-oud-spice-touch_720.jpg"
+                        alt="Perfume 2">
+                    <h3>Passion</h3>
+                    <p>An intoxicating mix of exotic spices and amber.</p>
+                    <button class="btn add-to-cart" data-product="Passion">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img id="third" src="https://img.fragrancex.com/images/products/sku/large/boiawh.jpg"
+                        alt="Perfume 3">
+                    <h3>Fresh</h3>
+                    <p>A refreshing burst of citrus and green herbs.</p>
+                    <button class="btn add-to-cart" data-product="Fresh">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div class="review-list">
+                <div class="review">
+                    <p>"Elegance is my new favorite! The scent is absolutely divine."</p>
+                    <span>- Jane Doe</span>
+                </div>
+                <div class="review">
+                    <p>"Passion is the perfect perfume for a night out. I get compliments every time I wear it."</p>
+                    <span>- John Smith</span>
+                </div>
+                <div class="review">
+                    <p>"Fresh is so refreshing and light. It's perfect for everyday wear."</p>
+                    <span>- Mary Johnson</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Perfume Boutique. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
